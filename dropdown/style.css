@@ -1,1 +1,62 @@
 @charset "UTF-8";
+#content1{
+    position: relative;
+    height: 100vh;
+}
+li a{
+    display: block;
+    width: 20%;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: #fff;
+    background: #82cddd;
+}
+.listl {
+display: block; width: 100%; position: fixed;
+padding: 0;
+}
+.list1 li {
+list-style: none;
+}
+.listl li a {
+float: left;
+border-right: 1px solid
+#fff;
+}
+.listl li:last-child a {
+border-right: none;
+}
+.listl li a:hover {
+background: #00afcc;
+}
+.parent {
+position: relative;
+}
+.parent ul {
+width: 20%;
+display: none;
+position: absolute;
+padding: 0; top: 56px;
+visibility: hidden;
+opacity: 0;
+transition: 0s;
+}
+.parent ul al{
+float: none;
+width:
+100%;
+border-top: 1px solid #fff;
+visibility: hidden;
+opacity: 0;
+transition: .5s;
+}
+.pattern:hover ul {
+    visibility: visible;
+    opacity: 1;
+}
+.pattern:hover ul  a{
+    visibility: visible;
+    opacity: 1;
+}
