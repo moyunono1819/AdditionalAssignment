@@ -1,9 +1,9 @@
 @charset "UTF-8";
-#content1{
+#content1 {
     position: relative;
     height: 100vh;
 }
-li a{
+li a {
     display: block;
     width: 20%;
     padding: 1em;
@@ -11,52 +11,83 @@ li a{
     text-decoration: none;
     box-sizing: border-box;
     color: #fff;
-    background: #82cddd;
+    background: #82CDDD;
 }
-.listl {
-display: block; width: 100%; position: fixed;
-padding: 0;
+.list1 {
+    display: block;
+    width: 100%;
+    position: fixed;
+    padding: 0;
 }
 .list1 li {
-list-style: none;
+    list-style: none;
 }
-.listl li a {
-float: left;
-border-right: 1px solid
-#fff;
+.list1 li a {
+    float: left;
+    border-right: 1px solid#fff;
 }
-.listl li:last-child a {
-border-right: none;
+.list1 li:last-child a {
+    border-right: none;
 }
-.listl li a:hover {
-background: #00afcc;
+.list1 li a:hover {
+    background: #00AFCC;
 }
 .parent {
-position: relative;
+    position: relative;
 }
 .parent ul {
-width: 20%;
-display: none;
-position: absolute;
-padding: 0; top: 56px;
-visibility: hidden;
-opacity: 0;
-transition: 0s;
+    width: 20%;
+    display: none;
+    position: absolute;
+    padding: 0;
+    top: 56px;
 }
-.parent ul al{
-float: none;
-width:
-100%;
-border-top: 1px solid #fff;
-visibility: hidden;
-opacity: 0;
-transition: .5s;
+.parent ul a{
+    float: none;
+    width: 100%;
+    border-top: 1px solid #fff;
 }
-.pattern:hover ul {
+.parent:hover ul {
+    display: block;
+}
+.child1 {
+    left: 0;
+}
+.child2 {
+    left: 20%;
+}
+.child3 {
+    left: 40%;
+}
+.child4 {
+    left: 60%;
+}
+.child5 {
+    left: 80%;
+}
+.parent ul {
+    width: 20%;
+    display: none;
+    position: absolute;
+    padding: 0;
+    top: 56px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0s;
+}
+.parent ul a{
+    float: none;
+    width: 100%;
+    border-top: 1px solid #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+.parent:hover ul {
     visibility: visible;
     opacity: 1;
 }
-.pattern:hover ul  a{
+.parent:hover ul a {
     visibility: visible;
     opacity: 1;
 }
