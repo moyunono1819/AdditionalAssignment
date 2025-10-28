@@ -71,11 +71,11 @@ a:hover:before {
     border-left: #FF5555 8px solid;
 }
 .menu .menu-item:first-child(4) a:before{
-    border-left: #FF5555;
+    border-color: #FF5555;
 }
 .menu .menu-item:first-child(5) a{
     border-left: #6FC967 8px solid;
 }
 .menu .menu-item:first-child(5) a:before{
-    border-left: #6FC967;
+    border-color: #6FC967;
 }
