@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 #content1 {
     position: relative;
     height: 100vh;
@@ -11,7 +12,7 @@ li a {
     text-decoration: none;
     box-sizing: border-box;
     color: #fff;
-    background: #82CDDD;
+    background: #82cddd;
 }
 .list1 {
     display: block;
@@ -30,7 +31,7 @@ li a {
     border-right: none;
 }
 .list1 li a:hover {
-    background: #00AFCC;
+    background: #00afcc;
 }
 .parent {
     position: relative;
@@ -50,6 +51,7 @@ li a {
 .parent:hover ul {
     display: block;
 }
+
 .child1 {
     left: 0;
 }
