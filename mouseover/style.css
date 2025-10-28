@@ -4,17 +4,20 @@ body {
     padding: 20px;
 }
 .menu {
-    background-color: #EFEFEF;
+    background-color: #efefef;
 }
+
 .menu .menu-list {
  margin: 0;
  padding: 0;
  list-style-type: none;
 }
+
 .menu .menu-list .menu-item {
-    border-bottom: #E0E0E0 1px
+    border-bottom: #e0e0e0 1px
     solid;
 }
+
 .menu .menu-list .menu-item a {
     display: block;
     box-sizing: border-box;
@@ -36,43 +39,43 @@ body {
     z-index: -1;
     transition: all 0.4s ease-out;
 }
+
 .menu .menu-list .menu-item
 a:hover {
-    color: #FFFFFF;
+    color: #ffffff;
 }
+
 .menu .menu-list .menu-item
 a:hover:before {
     width: 100%;
 }
-.menu .menu-list .menu-item:first-child a {
-    border-left: #FF9055 8px
-     solid;
+.menu .menu-list .menu-item:first-child a{
+    background-color: #FF9055 8px solid;
 }
-.menu .menu-list .menu-item:first-child a:before {
+.menu .menu-item:first-child a:before{
     background-color: #FF9055;
 }
-.menu .menu-list .menu-item:nth-child(2) a {
-    border-left: #55B1FF  8px
-     solid;
+.menu .menu-item:first-child(2) a{
+    border-left: #55B1FF 8px solid;
 }
-.menu .menu-list .menu-item:nth-child(2) a:before {
+.menu .menu-item:first-child(2) a:before{
     background-color: #55B1FF;
 }
-.menu .menu-list .menu-item:nth-child(3) a {
+.menu .menu-item:first-child(3) a{
     border-left: #C455FF 8px solid;
 }
-.menu .menu-list .menu-item:nth-child(3) a:before {
+.menu .menu-item:first-child(3) a:before{
     background-color: #C455FF;
 }
-.menu .menu-list .menu-item:nth-child(4) a{
-    border-left:  #FF5555 8px solid;
+.menu .menu-item:first-child(4) a{
+    border-left: #FF5555 8px solid;
 }
-.menu .menu-list .menu-item:nth-child(4) a:before {
-    background-color: #FF5555;
+.menu .menu-item:first-child(4) a:before{
+    border-left: #FF5555;
 }
-.menu .menu-list .menu-item:nth-child(5) a {
+.menu .menu-item:first-child(5) a{
     border-left: #6FC967 8px solid;
 }
-.menu .menu-list .menu-item:nth-child(5) a:before {
-    background-color: #6FC967;
+.menu .menu-item:first-child(5) a:before{
+    border-left: #6FC967;
 }
